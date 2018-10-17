@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.fleming.com.phrandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.LoginMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.Login" />
+        <activity android:name=".Activities.RegistrationHospital" />
+        <activity android:name=".Activities.RegistrationMain" />
+        <activity android:name=".Activities.UserRegistration" />
+        <activity android:name=".Activities.DocHome" />
+        <activity android:name=".Activities.UserHome" />
+        <activity android:name=".Activities.DocViewPatiants" />
+        <activity android:name=".Activities.DocAddMedcine" />
+        <activity android:name=".Activities.DocPriscription" />
+        <activity android:name=".Activities.UploadPicToPhrUser" />
+        <activity android:name=".Activities.DocPatiantsAddPrescription" />
+        <activity android:name=".Activities.DocPatiantsViewHistory" />
+        <activity android:name=".Activities.AccessPicUserMain" />
+        <activity android:name=".Activities.ViewImagesUser" />
+        <activity android:name=".Activities.ViewImage" />
+        <activity android:name=".Activities.AddPDFReport" />
+        <activity android:name=".Activities.AccessPDFUserMain" />
+        <activity android:name=".Activities.ViewPdf" />
+        <activity android:name=".Activities.ViewPriscription" />
+        <activity android:name=".Activities.PillReminder" />
+        <activity android:name=".Activities.BookDocUser" />
+        <activity android:name=".Activities.HosHome" />
+        <activity android:name=".Activities.AddHospital" />
+        <activity android:name=".Activities.AddDepartment" />
+        <activity android:name=".Activities.BMI" />
+        <activity android:name=".Activities.BMICalculator" />
+        <activity android:name=".Activities.ViewBMI" />
+        <activity android:name=".Activities.SampleDownload"></activity>
+        <activity android:name=".Activities.SecurityCheckApp" />
+        <activity android:name=".Activities.PhoneCheck"></activity>
+    </application>
+
+</manifest>
